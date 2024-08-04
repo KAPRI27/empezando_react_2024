@@ -1,4 +1,5 @@
 /*
+//comentamos este código porque es el que viene por defecto al instalar react
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -39,9 +40,8 @@ export default App
 
 import Titulo from "./Titulo";
 
-function App(){
-  
-  return <Titulo/>
+function App(){  
+  return <Titulo/>;
 }
 
 export default App;
