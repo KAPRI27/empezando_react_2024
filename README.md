@@ -51,6 +51,14 @@ ctrl + alt + R para crear componentes React más rápido con la extensión snipe
 
 - Cada vez que usemos texto html debemos cambiar la palabra 'class' por 'className' al copiarla en los componentes
 
-- Para pasarle info usaremos la prop 'data' de tipo string, y en App.tsx agregamos la prop y le damoss nombre y valor
+- Para pasarle info usaremos la prop 'data', un array de tipo string, y en App.tsx agregamos la prop y le damos nombre y valor. El método map de los array nos imprimirá un listado
 
-- usamos 'key' para darle un identifucador único a cada elemento, si viniera de una ddbb tendría un id único.
+- La consola nos muestra un error, nos indica que cada hijo de un listado requiere un id, por eso usamos 'key' para darle un identificador único a cada elemento, si viniera de una BBDD tendría un id único.
+
+### EVENTOS
+
+los eventos interactuan con los usuarios
+
+- onClick: cuando se haga un click sobre el elemento, se generará la acción que indiquemos, en este caso un cosole.log 'click'
+
+- en React se usa MouseEvent, en la lista de autocompletar debemos seleccionar el evento que a su derecha dice 'react' así nos aseguramos que viene en el paquete de react, lo asignamos al handleClick
