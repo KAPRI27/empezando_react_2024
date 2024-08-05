@@ -39,15 +39,19 @@ export default App
 */
 
 import Card, { CardBody } from "./components/Card";
+import List from "./components/List";
 
 function App() {
-  //'body' en este caso es una propiedad o 'props'
+  //creamos la propiedad o 'props' de list
+  const list = ["Goku", "Tanjiro", "Eren"];
   return (
     <Card>
       <CardBody
         title="Un titulo de componente"
         text="Este es un componente pasado a otro componente"
       />
+
+      <List data={list} />
     </Card>
   );
 }

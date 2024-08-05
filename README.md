@@ -45,4 +45,12 @@ export default {
 
 - También podemos pasarle OTRO componente y ya no solo propiedades. Usaremos <CardBody/>, y en vez de tipo string usaremos ReactNode, elige la interface de React, te mostrará dos el autocompletado NO elijas la que tiene una llave, luego en App.jsx agrega junto a CardBody las props y sus valores.
 
-*
+* Para Imprimir Listas:
+
+ctrl + alt + R para crear componentes React más rápido con la extensión snipets "tsrfce Creates a React Functional Component with ES7 module system and Typescript interface" esto creara el componente con el nombre del archivo, en este caso List.tsx
+
+- Cada vez que usemos texto html debemos cambiar la palabra 'class' por 'className' al copiarla en los componentes
+
+- Para pasarle info usaremos la prop 'data' de tipo string, y en App.tsx agregamos la prop y le damoss nombre y valor
+
+- usamos 'key' para darle un identifucador único a cada elemento, si viniera de una ddbb tendría un id único.
