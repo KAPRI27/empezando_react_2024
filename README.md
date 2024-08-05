@@ -39,4 +39,4 @@ export default {
 
 - Las etiquetas <></> corresponden a Fragments, una función de React que permite importar partes de un componente sin tener que envolverlo en etiquetas div ni de otro tipo. Fragments nos permite dividir los componentes
 
--
+- Utilizando multiples props podemos decidir cuales de las propiedades serán opcionales, para eso en la interface junto al nombre de la propiedad ponemos un simbolo de interrogación '?', de esta forma no será obligación ponerlas en el componente de App.tsx siempre.

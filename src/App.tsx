@@ -38,11 +38,16 @@ export default App
 
 */
 
-import Card from "./components/Card";
+import { CardBody } from "./components/Card";
 
 function App() {
   //'body' en este caso es una propiedad o 'props'
-  return <Card body={"Hola mundo"} />;
+  return (
+    <CardBody
+      title={"Título del componente"}
+      text={"Este párrafo es opcional"}
+    />
+  );
 }
 
 export default App;
