@@ -41,7 +41,8 @@ export default App
 import Card from "./components/Card";
 
 function App() {
-  return <Card />;
+  //'body' en este caso es una propiedad o 'props'
+  return <Card body={"Hola mundo"} />;
 }
 
 export default App;
