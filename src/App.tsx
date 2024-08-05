@@ -38,15 +38,17 @@ export default App
 
 */
 
-import { CardBody } from "./components/Card";
+import Card, { CardBody } from "./components/Card";
 
 function App() {
   //'body' en este caso es una propiedad o 'props'
   return (
-    <CardBody
-      title={"Título del componente"}
-      text={"Este párrafo es opcional"}
-    />
+    <Card>
+      <CardBody
+        title="Un titulo de componente"
+        text="Este es un componente pasado a otro componente"
+      />
+    </Card>
   );
 }
 

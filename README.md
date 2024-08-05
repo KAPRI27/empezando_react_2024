@@ -39,4 +39,10 @@ export default {
 
 - Las etiquetas <></> corresponden a Fragments, una función de React que permite importar partes de un componente sin tener que envolverlo en etiquetas div ni de otro tipo. Fragments nos permite dividir los componentes
 
-- Utilizando multiples props podemos decidir cuales de las propiedades serán opcionales, para eso en la interface junto al nombre de la propiedad ponemos un simbolo de interrogación '?', de esta forma no será obligación ponerlas en el componente de App.tsx siempre.
+- Utilizando el componente CardBody hicimos multiples props, podemos decidir cuales de las propiedades serán opcionales, para eso en la interface junto al nombre de la propiedad ponemos un símbolo de interrogación '?', de esta forma no será obligación ponerlas en el componente de App.tsx siempre. en este caso creamos title y text q es opcional.
+
+- Para usar el componente Card tenemos la prop 'body', para esto usaremos 'children' reemplazando 'body' en el componente Card
+
+- También podemos pasarle OTRO componente y ya no solo propiedades. Usaremos <CardBody/>, y en vez de tipo string usaremos ReactNode, elige la interface de React, te mostrará dos el autocompletado NO elijas la que tiene una llave, luego en App.jsx agrega junto a CardBody las props y sus valores.
+
+*
