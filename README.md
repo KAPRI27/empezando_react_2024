@@ -37,4 +37,6 @@ export default {
 
 - Instalamos bootstrap por lo que deshabilitamos los archivos .css que están en la carpeta src (también su import en el main.tsx) por lo que se verá según la configuración de bootstrap
 
-- Las etiquetas <></> corresponden a Fragments, una función de React que permite importar partes de un componente sin tener que envolverlo en etiquetas div ni de otro tipo
+- Las etiquetas <></> corresponden a Fragments, una función de React que permite importar partes de un componente sin tener que envolverlo en etiquetas div ni de otro tipo. Fragments nos permite dividir los componentes
+
+-
