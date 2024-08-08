@@ -62,3 +62,13 @@ los eventos interactuan con los usuarios
 - onClick: cuando se haga un click sobre el elemento, se generará la acción que indiquemos, en este caso un cosole.log 'click'
 
 - en React se usa MouseEvent, en la lista de autocompletar debemos seleccionar el evento que a su derecha dice 'react' así nos aseguramos que viene en el paquete de react, lo asignamos al handleClick
+
+- Gestiónando Eventos: para poder utilizar el evento 'click' cambiaremos el 'MouseEvent' por una función arrow y e será igual a un string. En este caso mostrara el elemento en un console.log
+
+- Para resaltar un elemento le ponemos un atributo 'active'
+
+\*\*SyntheticBseEvent : Envuelve los elementos DEPENDIENDO del navegador para que podamos acceder al objeto igual sin importar el navegador que usemos
+
+GESTIONANDO EVENTOS
+
+si el index es exactamente el mismo que el index que definimos arriba, en este ejemplo '1', entonces lo resaltará, para eso creamos la variable index igual a 1 y className de list.tsx evaluará si se cumple la condición o no, queremos que se marque el elemento seleccionado (min 1:14:22)

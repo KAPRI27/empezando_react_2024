@@ -6,13 +6,18 @@ type Props = {
 };
 
 function List({ data }: Props) {
-  const handleClick = (e: MouseEvent) => {
+  let index = 1;
+  const handleClick = (e: string) => {
     console.log(e);
   };
   return (
     <ul className="list-group">
-      {data.map((elemento) => (
-        <li key={elemento} onClick={handleClick} className="list-group-item">
+      {data.map((elemento, i) => (
+        <li
+          key={elemento}
+          onClick={() => handleClick(i)}
+          className={`list-group-item ${index == i ? "active" : ""}`}
+        >
           {elemento}
         </li>
       ))}
